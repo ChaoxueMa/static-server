@@ -46,7 +46,6 @@ var server = http.createServer(function(request, response) {
     console.log(content);
     response.statusCode = 404;
   }
-  console.log(suffix);
   response.write(content);
   response.end();
 
